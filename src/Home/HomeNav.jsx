@@ -73,6 +73,15 @@ function HomeNav() {
               <li className="nav-item">
                 <Link
                   className="nav-link"
+                  to={"/abc"}
+                  style={{ color: "white" }}
+                >
+                  Dashboard
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
                   to={"/nic"}
                   style={{ color: "white" }}
                 >
