@@ -89,7 +89,7 @@ function App() {
           path="/nic-approve"
           element={isLoggedIn ? <NicApprove /> : <Navigate to="/" />}
         />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="//owner" element={<Admin />} />
       </Routes>
     </Router>
   );
